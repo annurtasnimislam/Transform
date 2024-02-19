@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.wrapper > p {
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 1%;
+}
+.wrapper > p:nth-child(1) {
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 4px;
+  text-transform: capitalize;
+}
+.wrapper > p:nth-child(2) {
+  color: white;
+}
+.wrapper > p:nth-child(3) {
+  color: rgba(255, 255, 255, 0.6);
+}
