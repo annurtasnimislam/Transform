@@ -1,15 +1,25 @@
 .container {
   width: 256px;
   height: 767px;
-  padding: 2px;
   margin: 20px auto;
-  background: linear-gradient(100deg, green, rgba(255, 255, 255, 0));
   border-radius: 15.5px;
+  padding: 2px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(120deg, rgba(255, 255, 255, 0), white);
 }
+
 .innerWrapper {
-  background-color: rgb(50, 48, 48);
   height: 100%;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.72),
+      rgba(0, 0, 0, 0.72)
+    ),
+    linear-gradient(157.77deg, #728cba 14.5%, #ffc3b8 118.7%);
   border-radius: 14px;
+}
+.main {
+  padding: 0 16px 16px;
 }
 .icon {
   position: absolute;

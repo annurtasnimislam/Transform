@@ -6,7 +6,11 @@ export default function Edit({ title, gridNum, children, border }) {
     <div
       className={classes.wrapper}
       style={
-        border ? { borderBottom: "1px solid rgba(255, 255, 255, 0.05)" } : {}
+        border
+          ? {
+              borderBottom: "1px solid rgba(255, 255, 255, 0.05)",
+            }
+          : {}
       }
     >
       <Title text={title} />

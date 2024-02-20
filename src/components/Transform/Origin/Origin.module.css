@@ -1,0 +1,27 @@
+.container {
+  padding: 0 38px 0 0;
+}
+.flexBox {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 6px;
+}
+.box {
+  height: 72px;
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 0px rgba(255, 255, 255, 0.05) inset;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 4px;
+  border-radius: 4px;
+}
+.flexItems {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
