@@ -1,4 +1,4 @@
-import { Measure, Title } from "../../Atoms";
+import { Title } from "../../Atoms";
 import classes from "./Edit.module.css";
 
 export default function Edit({ title, gridNum, children, border }) {

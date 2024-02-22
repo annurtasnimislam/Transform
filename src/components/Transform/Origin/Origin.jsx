@@ -1,8 +1,6 @@
 import { Title } from "../../Atoms";
 import classes from "./Origin.module.css";
 import Position from "./Position/Position";
-import icon01 from "../../../assests/fixed-width-h.png";
-import icon02 from "../../../assests/fixed-width-v.png";
 
 export default function Origin() {
   return (
